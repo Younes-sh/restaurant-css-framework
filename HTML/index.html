@@ -12,10 +12,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  </head>
-  <body>
+</head>
+<body class="bg-light" id="home">
    <!--         NavBar       -->
-   <nav class=" navbar-expand-lg navbar-light ">
+  <nav class=" navbar-expand-lg navbar-light ">
     <div class="container-fluid ">
       <a class="navbar-brand m-2 text-light" href="#">Parseh</a>
       <button class="navbar-toggler border-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,113 +27,296 @@
             <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light" href="#">About</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Menu
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </a>
+            <a class="nav-link text-light" href="About.html" target="_blank">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled text-light" href="#" tabindex="-1" aria-disabled="true">Address</a>
+            <a class="nav-link text-light" href="#footer" tabindex="-1" aria-disabled="true">Address</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#footer" tabindex="-1" aria-disabled="true">Contact</a>
+          </li>
+          <div class="dropdown">
+            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              Menu
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1 ">
+              <li><a class="dropdown-item" href="Appetizer.html" target="_blank">Appetizers</a></li>
+              <li><a class="dropdown-item" href="#">Barbecue</a></li>
+              <li><a class="dropdown-item" href="Grilledfood.html" target="_blank">Grill</a></li>
+              <li><a class="dropdown-item" href="">Eastern Food</a></li>
+              <li><a class="dropdown-item" href="Desserts.html" target="_blank">Desser</a></li>
+              <li><a class="dropdown-item" href="seafood.html" target="_blank">Seafood</a></li>
+            </ul>
+          </div>
+          </li>
+
         </ul>
       
       </div>
+      <div class=" py-4 ">
+        <h1 class="text-center text-light shadow-effects text-uppercase fs-1 fw-bolder py-5 my-5 "><span class="bg-primary px-2 rounded"><strong>Resturant</strong></span> <span class="bg-light px-2 rounded text-primary">Parseh</span> </h1>
+      </div>
     </div>
   </nav>
-  <!-- slides  -->
+  <!-- Slid Photo -->
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img  src="https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDg4MDd8MHwxfHNlYXJjaHwyN3x8Zm9vZHxlbnwwfHx8fDE2NTI4NTkxMDM&ixlib=rb-1.2.1&q=80&w=1080" class=" w-10  mx-auto img-fluid img-responsive d-block" alt="soup" style="max-width: 70%; height: 400px;" >
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDg4MDd8MHwxfHNlYXJjaHwyNnx8d2luZXxlbnwwfHx8fDE2NTI4Nzg3MTQ&ixlib=rb-1.2.1&q=80&w=1080" class=" w-100  mx-auto img-fluid img-responsive d-block" alt="wine" style="max-width: 70%; height: 400px;">
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.unsplash.com/photo-1516557977083-86bf43fe24ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDg4MDd8MHwxfHNlYXJjaHwxfHxkZXNzZXJ8ZW58MHx8fHwxNjUyODc4ODQ3&ixlib=rb-1.2.1&q=80&w=1080" class=" w-100 mx-auto img-fluid img-responsive d-block" alt="desser" style="max-width: 70%; height: 400px;">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- Gallery -->
   <div class="container-lg">
     <div class="container-xl text-center me-auto ">
       <div class="row justify-content-center ">
+        <!-- Gril foods -->
+        <h1 class="text-secondary mt-2  border-bottom border-3">the Foods Gril</h1>
         <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3  py-5  rounded">
-          <div class="cards">
-            <img src="https://cdn.pixabay.com/photo/2014/04/22/02/56/pizza-329523_960_720.jpg" alt="" class="container-fluid" style="height: 150px;">
-            <p class="p-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque.</p>
+          <div class="cards shadow-sm  style='hight:100px;'">
+            <img src="https://cdn.pixabay.com/photo/2014/04/22/02/56/pizza-329523_960_720.jpg" alt="" class=" mx-auto img-fluid img-responsive d-block " style="height: 150px;">
+            <p class="p-3">Lorem ipsum dolor sit amet</p>
+            <div class="order">
+              <button class="px-2 mx-2 my-2 bg-danger text-light">-</button><span>0</span><button type="button" class="px-2 mx-2 bg-success text-light">+</button>
+            </div>
+            <div class="addToCard bg-primary py-1 text-warning ">Add To Card</div>
           </div>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3  py-5  rounded">
-          <div class="cards">
-            <img src="https://cdn.pixabay.com/photo/2016/03/05/23/02/barbecue-1239434_960_720.jpg" alt="" class="container-fluid" style="height: 150px;">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, sint.</p>
+          <div class="cards shadow-sm  style='hight:100px;'">
+            <img src="https://cdn.pixabay.com/photo/2016/03/05/23/02/barbecue-1239434_960_720.jpg" alt="" class="mx-auto img-fluid img-responsive d-block" style="height: 150px;">
+            <p class="p-3">Lorem ipsum dolor sit amet consectetur</p>
+            <div class="order">
+              <button class="px-2 mx-2 my-2 bg-danger text-light">-</button><span>0</span><button type="button" class="px-2 mx-2 bg-success text-light">+</button>
+            </div>
+            <div class="addToCard bg-primary py-1 text-warning">Add To Card</div>
           </div>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3  py-5  rounded">
-          <div class="cards">
-            <img src="https://cdn.pixabay.com/photo/2014/08/14/14/21/shish-kebab-417994_960_720.jpg" alt="" class="container-fluid" style="height: 150px;">
-           <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci necessitatibus nisi repellat autem laborum</p>
+          <div class="cards shadow-sm" style='hight:100px;'>
+            <img src="https://cdn.pixabay.com/photo/2014/08/14/14/21/shish-kebab-417994_960_720.jpg" alt="" class="mx-auto img-fluid img-responsive d-block" style="height: 150px;">
+           <p class="p-3"> Lorem ipsum dolor sit, amet</p>
+           <div class="order">
+             <button class="px bg-danger text my-2  mx-2">-</button><span>0</span><button type="button" class="px-2 mx-2 bg-success text-light">+</button>
+            </div>
+           <div class="addToCard bg-primary py-1 text-warning">Add To Card</div>
           </div>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3  py-5  rounded">
-          <div class="cards">
-            <img src="https://cdn.pixabay.com/photo/2016/11/23/18/31/pasta-1854245_960_720.jpg" alt="" class="container-fluid " style="height: 150px;">
-           <p> Lorem ipsum dolor sit amet.</p>
+          <div class="cards shadow-sm" style='hight:100px;'>
+            <img src="https://cdn.pixabay.com/photo/2016/11/23/18/31/pasta-1854245_960_720.jpg" alt="" class="mx-auto img-fluid img-responsive d-block" style="height: 150px;">
+           <p class="p-3"> Lorem ipsum dolor sit amet.</p>
+           <div class="order">
+             <button class="px bg-danger text my-2  mx-2">-</button><span>0</span><button type="button" class="px-2 mx-2 bg-success text-light">+</button>
+            </div>
+           <div class="addToCard bg-primary py-1 text-warning">Add To Card</div>
           </div>
         </div>
       
       </div>
       <div class="row justify-content-center p-1">
+        <!-- Seafood -->
+        <h1 class="text-secondary border-bottom">Seafood</h1>
         <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3  py-5  rounded">
-          <div class="cards">
-            <a href=""></a>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci necessitatibus nisi repellat autem laborum qui eius ullam numquam optio assumenda?
+          <div class="cards shadow-sm" style='hight:100px;'>
+            <img src="https://images.unsplash.com/photo-1579871494447-9811cf80d66c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="sushi"  class="mx-auto img-fluid img-responsive d-block " style="height: 150px;">
+            <p class="p-3">Lorem ipsum dolor, sit </p> 
+            <div class="order">
+              <button class="px-2 mx-2 my-2 bg-danger text-light">-</button><span>0</span><button type="button" class="px-2 mx-2 bg-success text-light">+</button>
+            </div>
+            <div class="addToCard bg-primary py-1 text-warning">Add To Card</div>
           </div>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3  py-5  rounded">
-          <div class="cards">
-            <a href=""></a>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci necessitatibus nisi repellat autem laborum qui eius ullam numquam optio assumenda?
+          <div class="cards shadow-sm" style='hight:100px;'>
+            <img src="https://th.bing.com/th/id/R.5701237df6cfcfc9ef63e80bf70de1f7?rik=Avnl8CcCPhyQyg&pid=ImgRaw&r=0" alt="cooscoos" class="mx-auto img-fluid img-responsive d-block " style="height: 150px;">
+            
+            <p class="p-3">Lorem ipsum dolor sit, </p>
+            <div class="order">
+              <button class="px-2 mx-2 my-2 bg-danger text-light">-</button><span>0</span><button type="button" class="px-2 mx-2 bg-success text-light">+</button>
+            </div>
+            <div class="addToCard bg-primary py-1 text-warning">Add To Card</div>
           </div>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3  py-5  rounded">
-          <div class="cards">
-            <a href=""></a>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci necessitatibus nisi repellat autem laborum qui eius ullam numquam optio assumenda?
+          <div class="cards shadow-sm" style='hight:100px;'>
+            <img src="https://hoianfoodtour.com/wp-content/uploads/2013/08/3767100573_10d1b31f34_b.jpg" alt="" class="mx-auto img-fluid img-responsive d-block " style="height: 150px;">
+            <p class="p-3">Lorem ipsum dolor sit, amet</p>
+            <div class="order">
+              <button class="px-2 mx-2 my-2 bg-danger text-light">-</button><span>0</span><button type="button" class="px-2 mx-2 bg-success text-light">+</button>
+            </div>
+            <div class="addToCard bg-primary py-1 text-warning">Add To Card</div>
           </div>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3  py-5  rounded">
-          <div class="cards">
-            <a href=""></a>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci necessitatibus nisi repellat autem laborum qui eius ullam numquam optio assumenda?
+          <div class="cards shadow-sm" style='hight:100px;'>
+            <img src="https://www.nomabid.org/wp-content/uploads/2019/11/Stuffed-Lobster.jpg" alt="" class="mx-auto img-fluid img-responsive d-block" style="height: 150px;">
+            <p class="p-3">Lorem ipsum dolor sit, amet consectetur</p>
+            <div class="order">
+              <button class="px-2 mx-2 my-2 bg-danger text-light">-</button><span>0</span><button type="button" class="px-2 mx-2 bg-success text-light">+</button>
+            </div>
+            <div class="addToCard bg-primary py-1 text-warning">Add To Card</div>
           </div>
         </div>
       </div>
       <div class="row justify-content-center p-1">
+        <!-- Dessert -->
+        <h1 class="text-secondary border-bottom">Dessert</h1>
         <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3  py-5  rounded">
-          <div class="cards">
-            <a href=""></a>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci necessitatibus nisi repellat autem laborum qui eius ullam numquam optio assumenda?
+          <div class="cards shadow-sm" style='hight:100px;'>
+            <img src="https://th.bing.com/th/id/OIP.P3xgOuAeZvl4NuoKVPdVCgHaE8?pid=ImgDet&rs=1" alt="ice cream" class="mx-auto img-fluid img-responsive d-block" style="height: 150px;">
+            <p class="p-3">Lorem ipsum dolor sit, amet consectetur</p> 
+            <div class="order">
+              <button class="px-2 mx-2 my-2 bg-danger text-light">-</button><span>0</span><button type="button" class="px-2 mx-2 bg-success text-light">+</button>
+            </div>
+            <div class="addToCard bg-primary py-1 text-warning">Add To Card</div>
           </div>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3  py-5  rounded">
-          <div class="cards">
-            <a href=""></a>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci necessitatibus nisi repellat autem laborum qui eius ullam numquam optio assumenda?
+          <div class="cards shadow-sm" style='hight:100px;'>
+            <img src="https://th.bing.com/th/id/R.24b2b1598c2587cab4af1cbaacd97075?rik=9W9SRc2oNp0hgg&riu=http%3a%2f%2fwww.valerieskeepers.com%2fwp-content%2fuploads%2f2015%2f08%2fFattoush-Salad-Feta.jpg&ehk=V2ebz2DcS55SnSybhHUwlM7gPemEx91G%2fHiuFNR4F38%3d&risl=&pid=ImgRaw&r=0" alt="salad" class="mx-auto img-fluid img-responsive d-block" style="height: 150px;">
+            <p class="p-3">Lorem ipsum dolor sit, amet consectetur</p> 
+            <div class="order">
+              <button class="px-2 mx-2 my-2 bg-danger text-light">-</button><span>0</span><button type="button" class="px-2 mx-2 bg-success text-light">+</button>
+            </div>
+            <div class="addToCard bg-primary py-1 text-warning">Add To Card</div>
           </div>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3  py-5  rounded">
-          <div class="cards">
-            <a href=""></a>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci necessitatibus nisi repellat autem laborum qui eius ullam numquam optio assumenda?
+          <div class="cards shadow-sm" style='hight:100px;'>
+            <img src="https://th.bing.com/th/id/R.78ce13cfa1c1b44ab89058c99facb747?rik=1EJHbS7p8pOx4A&riu=http%3a%2f%2fwww.onlinestoresurveys.com%2fwp-content%2fuploads%2f2014%2f10%2fWine.jpg&ehk=bvZqqIRl1pUwpRUkvQE4UIRd0hZQd19cCZTHRslT6zc%3d&risl=&pid=ImgRaw&r=0" alt="win" class="mx-auto img-fluid img-responsive d-block" style="height: 150px;">
+            <p class="p-3">Lorem ipsum dolor sit, amet</p> 
+            <div class="order">
+              <button class="px-2 mx-2 my-2 bg-danger text-light">-</button><span>0</span><button type="button" class="px-2 mx-2 bg-success text-light">+</button>
+            </div>
+            <div class="addToCard bg-primary py-1 text-warning">Add To Card</div>
           </div>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3  py-5  rounded">
-          <div class="cards">
-            <a href=""></a>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci necessitatibus nisi repellat autem laborum qui eius ullam numquam optio assumenda?
+          <div class="cards shadow-sm" style='hight:100px;'>
+            <img src="https://chilledmagazine.com/wp-content/uploads/2015/10/Ruby-Rouge.jpg" alt="vodka" class="mx-auto img-fluid img-responsive d-block" style="height: 150px;">
+            <p class="p-3">Lorem ipsum dolor sit, amet consectetur</p>
+            <div class="order">
+              <button class="px-2 mx-2 my-2 bg-danger text-light">-</button><span>0</span><button type="button" class="px-2 mx-2 bg-success text-light">+</button>
+            </div>
+            <div class="addToCard bg-primary py-1 text-warning">Add To Card</div>
           </div>
         </div>
+        <!-- Drinks -->
+
+
+        <div class="row justify-content-center p-1">
+          <h1 class="text-secondary border-bottom">Drinks</h1>
+          <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3  py-5  rounded">
+            <div class="cards shadow-sm" style='hight:100px;'>
+              <img src="https://images.unsplash.com/photo-1579954115545-a95591f28bfc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="ice cream" class="mx-auto img-fluid img-responsive d-block" style="height: 150px;">
+              <p class="p-3">Lorem ipsum dolor sit, amet consectetur</p> 
+              <div class="order">
+                <button class="px-2 mx-2 my-2 bg-danger text-light">-</button><span>0</span><button type="button" class="px-2 mx-2 bg-success text-light">+</button>
+              </div>
+              <div class="addToCard bg-primary py-1 text-warning">Add To Card</div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3  py-5  rounded">
+            <div class="cards shadow-sm" style='hight:100px;'>
+              <img src="https://images.unsplash.com/photo-1461107973086-9ca50bc9f429?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170" alt="salad" class="mx-auto img-fluid img-responsive d-block" style="height: 150px;">
+              <p class="p-3">Drink for Kids</p> 
+              <div class="order">
+                <button class="px-2 mx-2 my-2 bg-danger text-light">-</button><span>0</span><button type="button" class="px-2 mx-2 bg-success text-light">+</button>
+              </div>
+              <div class="addToCard bg-primary py-1 text-warning">Add To Card</div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3  py-5  rounded">
+            <div class="cards shadow-sm" style='hight:100px;'>
+              <img src="https://th.bing.com/th/id/R.78ce13cfa1c1b44ab89058c99facb747?rik=1EJHbS7p8pOx4A&riu=http%3a%2f%2fwww.onlinestoresurveys.com%2fwp-content%2fuploads%2f2014%2f10%2fWine.jpg&ehk=bvZqqIRl1pUwpRUkvQE4UIRd0hZQd19cCZTHRslT6zc%3d&risl=&pid=ImgRaw&r=0" alt="win" class="mx-auto img-fluid img-responsive d-block" style="height: 150px;">
+              <p class="p-3">Lorem ipsum dolor sit, amet</p> 
+              <div class="order">
+                <button class="px-2 mx-2 my-2 bg-danger text-light">-</button><span>0</span><button type="button" class="px-2 mx-2 bg-success text-light">+</button>
+              </div>
+              <div class="addToCard bg-primary py-1 text-warning">Add To Card</div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3  py-5  rounded">
+            <div class="cards shadow-sm" style='hight:100px;'>
+              <img src="https://chilledmagazine.com/wp-content/uploads/2015/10/Ruby-Rouge.jpg" alt="vodka" class="mx-auto img-fluid img-responsive d-block" style="height: 150px;">
+              <p class="p-3">Lorem ipsum dolor sit, amet consectetur</p>
+              <div class="order">
+                <button class="px-2 mx-2 my-2 bg-danger text-light">-</button><span>0</span><button type="button" class="px-2 mx-2 bg-success text-light">+</button>
+              </div>
+              <div class="addToCard bg-primary py-1 text-warning">Add To Card</div>
+            </div>
+          </div>
+
+
+
       </div>
     </div>
 
   </div>
-         
+  <!--      Footer     -->
+  <footer class="bg-dark text-center text-lg-start" id="footer">
+    <a href="#home" class="link-light bg-danger p-2 rounded float-s">Home</a>
+    <ul class="text-start">
+      <li class="d-inline-block p-5 text-info text-start">
+        Map
+        <ul class="list-unstyled">
+          <li class="py-2 d-inline-block p-1 text-info">
+            
+              <!--Google map-->
+<div id="map-container-google-3" class="z-depth-1-half map-container-3 d-inline-block">
+  <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20157.532935539723!2d4.367939099999999!3d50.8368758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m3!3e6!4m0!4m0!5e0!3m2!1snl!2sbe!4v1652882375316!5m2!1snl!2sbe" max-width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+           
+          </li>
+        </ul>
+      </li>
+      <!-- Address -->
+      <li class="d-inline-block p-5 text-info">
+        Address
+        <ul>
+          <li><p>Rue Univers n°696</p></li>
+        </ul> 
+      </li>
+     <!-- Contacts -->
+      <li class="d-inline-block p-5 text-info">
+        Contact
+        <ul class="list-unstyled">
+          <li class="py-2">
+            <p>Tell : 12345678</p>
+          </li>
+          <li class="py-2">
+            <p>Tell : 123654987</p>
+          </li>
+        </ul>
+      </li>
+      <!--  -->
+      <li class="d-inline-block p-5 text-info">
+        <ul class="list-unstyled">
+          <li class="py-2">7</li>
+          <li class="py-2">8</li>
+          <li class="py-2">9</li>
+        </ul>
+      </li>
+    </ul>
+    © 2022 Copyright:
+
+   
+  </footer>
   
 
 
