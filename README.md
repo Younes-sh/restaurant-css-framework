@@ -25,4 +25,8 @@
 - Advertising
 - Location Restaurant
 - Registration and Subscription 
-
+- Add to cart![Alt text](https://cdn.pixabay.com/photo/2014/11/05/15/57/salmon-518032_>
+- ![Alt text]([url=https://www.udrop.com/6EaT/restaurant.png][img]https://www.udrop.com/cache/plugins/filepreviewer/584403/db05b52d67512ccecf0296df3b0df542039af3f93cab87dcf902f64a56eaceac/280x280_middle.jpg[/img][/url])
+- ![Alt text](https://www.udrop.com/6EaS/menu_burger.png)
+- 
+- [Alt text](https://www.udrop.com/6EaT/restaurant.png " page Restaurant")
